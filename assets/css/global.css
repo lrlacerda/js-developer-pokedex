@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #fff;  
+}
+
+.seta-voltar {
+    width: 1.325rem;
+    margin: 55px 0 0 30px;
+    opacity: 0.8;
+}
+
+.menu-amburguer {
+    width: 1.825rem;
+    margin: 55px 0 0 260px;
+    opacity: 0.8;
+}
+
+.background-image {
+    position: absolute;
+    top: -80px;
+    right: -100px;
+    width: 330px;
+    opacity: 0.4;
+}
+
+@media screen and (min-width: 992px) {
+   .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+   }
+}
+
+
+
+
+
