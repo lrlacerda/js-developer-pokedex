@@ -36,21 +36,23 @@ Este projeto utiliza a PokeAPI, uma API pública que fornece informações detal
 
 ## Estrutura do Projeto
 
+```plaintext
 pokedex/
 ├── assets/
-│ ├── css/
-│ │ ├── global.css
-│ │ └── pokedex.css
-│ ├── img/
-│ │ ├── seta-esquerda.png
-│ │ ├── barra-de-menu.png
-│ │ └── S3Fmon_29.webp
-│ └── js/
-│ ├── pokemon-model.js
-│ ├── poke-api.js
-│ └── main.js
+│   ├── css/
+│   │   ├── global.css
+│   │   └── pokedex.css
+│   ├── img/
+│   │   ├── seta-esquerda.png
+│   │   ├── barra-de-menu.png
+│   │   └── S3Fmon_29.webp
+│   └── js/
+│       ├── pokemon-model.js
+│       ├── poke-api.js
+│       └── main.js
 ├── index.html
 └── README.md
+
 
 ## Contribuindo
 Se você quiser contribuir com este projeto, sinta-se à vontade para enviar um pull request. Todas as contribuições são bem-vindas! Para maiores informações sobre como contribuir, por favor, consulte o arquivo CONTRIBUTING.md (se disponível).
