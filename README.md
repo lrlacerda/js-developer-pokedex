@@ -38,17 +38,17 @@ Este projeto utiliza a PokeAPI, uma API pública que fornece informações detal
 
 pokedex/
 ├── assets/
-│   ├── css/
-│   │   ├── global.css
-│   │   └── pokedex.css
-│   ├── img/
-│   │   ├── seta-esquerda.png
-│   │   ├── barra-de-menu.png
-│   │   └── S3Fmon_29.webp
-│   └── js/
-│       ├── pokemon-model.js
-│       ├── poke-api.js
-│       └── main.js
+│ ├── css/
+│ │ ├── global.css
+│ │ └── pokedex.css
+│ ├── img/
+│ │ ├── seta-esquerda.png
+│ │ ├── barra-de-menu.png
+│ │ └── S3Fmon_29.webp
+│ └── js/
+│ ├── pokemon-model.js
+│ ├── poke-api.js
+│ └── main.js
 ├── index.html
 └── README.md
 
