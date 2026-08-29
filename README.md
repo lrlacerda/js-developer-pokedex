@@ -1,65 +1,46 @@
-# Pokedex
+# 📱 Pokedex
 
-Este é um projeto de uma Pokedex, que utiliza uma API pública para buscar e exibir informações sobre Pokémons.
+Projeto de estudo front-end que consome a [PokeAPI](https://pokeapi.co) para exibir uma Pokedex navegável, com listagem paginada de Pokémons e uma página de detalhes para cada um. Construído em HTML, CSS e JavaScript puro (vanilla), sem frameworks ou etapa de build.
 
-## Índice
+## ✨ Funcionalidades
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [API Utilizada](#api-utilizada)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
-- [Contato](#contato)
+- Listagem de Pokémons com nome, número, tipo(s) e imagem, buscados diretamente da PokeAPI;
+- Paginação por botão "Load More", carregando mais Pokémons sob demanda até o total de 248 registros;
+- Página de detalhes (`pokemon-details.html`) com número, tipo(s), habilidades, altura, peso e estatísticas base de cada Pokémon;
+- Layout responsivo estilizado por tipo de Pokémon (cores diferentes para cada tipo).
 
-## Sobre o Projeto
+## 🚀 Tecnologias utilizadas
 
-O objetivo deste projeto é criar uma aplicação web que permita aos usuários visualizar uma lista de Pokémons, carregando mais itens conforme necessário, utilizando uma API pública.
+| Tecnologia | Uso no projeto |
+| --- | --- |
+| HTML5 | Estrutura das páginas |
+| CSS3 (Normalize.css, Google Fonts) | Estilização e responsividade |
+| JavaScript (vanilla) | Consumo da API e manipulação do DOM |
+| [PokeAPI](https://pokeapi.co) | Fonte dos dados de Pokémons |
 
-## Funcionalidades
+## 🗄️ Estrutura do projeto
 
-- Listagem de Pokémons com paginação.
-- Exibição de detalhes dos Pokémons.
-- Layout responsivo e adaptável para diferentes dispositivos.
-
-## Tecnologias Utilizadas
-
-- **HTML5:** Utilizado para a estrutura da página.
-- **CSS3:** Utilizado para o estilo da página, incluindo Normalize.css e Google Fonts.
-- **JavaScript:** Utilizado para a lógica da aplicação e manipulação do DOM.
-- **PokeAPI:** API pública usada para obter os dados dos Pokémons.
-
-## API Utilizada
-
-Este projeto utiliza a PokeAPI, uma API pública que fornece informações detalhadas sobre os Pokémons. A PokeAPI é um recurso excelente para obter dados atualizados e precisos sobre todos os Pokémons.
-
-## Estrutura do Projeto
-
-```plaintext
-pokedex/
+```
+js-developer-pokedex/
 ├── assets/
 │   ├── css/
 │   │   ├── global.css
-│   │   └── pokedex.css
-│   ├── img/
-│   │   ├── seta-esquerda.png
-│   │   ├── barra-de-menu.png
-│   │   └── S3Fmon_29.webp
+│   │   ├── pokedex.css
+│   │   └── pokemon-details.css
 │   └── js/
-│       ├── pokemon-model.js
-│       ├── poke-api.js
-│       └── main.js
-├── index.html
-└── README.md
+│       ├── pokemon-model.js      # Classe Pokemon
+│       ├── poke-api.js           # Chamadas à PokeAPI e conversão dos dados
+│       ├── main.js               # Listagem e paginação
+│       └── pokemon-details.js    # Lógica da página de detalhes
+├── img/
+├── index.html               # Listagem de Pokémons
+└── pokemon-details.html     # Detalhes de um Pokémon específico
+```
 
+## ▶️ Como executar
 
-## Contribuindo
-Se você quiser contribuir com este projeto, sinta-se à vontade para enviar um pull request. Todas as contribuições são bem-vindas! Para maiores informações sobre como contribuir, por favor, consulte o arquivo CONTRIBUTING.md (se disponível).
+Este é um projeto estático, sem dependências ou build. Basta abrir o arquivo `index.html` diretamente no navegador, ou servir a pasta com uma extensão como o Live Server do VS Code para evitar restrições de CORS/fetch em `file://`.
 
-## Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## 📬 Contato
 
-## Contato
-Lucas Ribeiro
-Email: lrlacerda@gmail.com
+Lucas Ribeiro Lacerda
